@@ -1403,6 +1403,15 @@ ______________________ */
   justify-content: flex-end;
   align-items: flex-end;
 }
+.MaterialIcon__contextContainer___yiBuY0j {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 .MaterialIcon__indicator___SHwlndJ {
   line-height: 0.9;
   border-radius: 3px 0 0 0;
@@ -2133,29 +2142,28 @@ ______________________ */
 .BuildingInformation__recipeList___ZCGnZE_ {
   display: flex;
   flex-direction: column;
+  row-gap: 0.2rem;
 }
 .BuildingInformation__recipe___uzanxXw {
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  gap: 0.2rem;
 }
-.BuildingInformation__recipe___uzanxXw > div {
-  margin-right: 2px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-  line-height: 28px;
-}
-.BuildingInformation__recipe___uzanxXw > div:last-child {
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
+.BuildingInformation__inputs___FGyfUwO {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.2rem;
 }
 .BuildingInformation__duration___FBbNUfZ {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 33px;
   width: 33px;
   height: 33px;
   background-color: #222;
@@ -8142,21 +8150,22 @@ ______________________ */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
+  gap: 0.2rem;
 }
-.ProductionLine__template___HfCtRrQ > div {
-  margin: 2px;
-  line-height: 33px;
-}
-.ProductionLine__template___HfCtRrQ > div:last-child {
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
+.ProductionLine__inputs___bKTWKmj {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.2rem;
 }
 .ProductionLine__duration___DStoUrv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 33px;
   width: 33px;
   height: 33px;
   background-color: #222;
@@ -9502,6 +9511,16 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 }
 .InventoriesListContainer__filter___x0VgzsU span {
   margin-right: 2px;
+}
+
+.Unpack__container___CRqvWVs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+.Unpack__container___CRqvWVs button {
+  min-width: 1.5rem;
 }
 
 /* --------- OPTIONS --------- */
