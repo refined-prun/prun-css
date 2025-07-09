@@ -1310,18 +1310,21 @@ ______________________ */
   height: 100%;
 }
 .ColoredIcon__labelContainer___YVfgzOk {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 .ColoredIcon__label___OU1I4oP {
   font-weight: bold;
   text-align: center;
+}
+.ColoredIcon__subLabel___gx8F3f1 {
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
 }
 
 /*   THEME
@@ -1645,6 +1648,7 @@ ______________________ */
 .forms__form-component___yTgP_Qa label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -2871,6 +2875,7 @@ ______________________ */
 .Prompt__form-component___j__5XdE label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -3187,6 +3192,7 @@ ______________________ */
 .UserSelector__form-component___WxWIl8a label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -4272,6 +4278,7 @@ ______________________ */
 .MaterialSelector__form-component___qS05mJn label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -5058,6 +5065,7 @@ ______________________ */
 .AddressSelector__form-component___o_zVEMc label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -7885,7 +7893,7 @@ progress::-moz-progress-bar {
 .EnvironmentTable__gridContainer___pPOa5IC {
   display: grid;
   grid-auto-columns: min-content;
-  grid-template-columns: 2fr 1.25fr 2fr;
+  grid-template-columns: auto auto auto;
   grid-auto-rows: min-content;
   gap: 1px 2px;
   align-items: center;
@@ -7933,7 +7941,7 @@ ______________________ */
 .ResourceTable__gridContainer___ymrzTcD {
   display: grid;
   grid-auto-columns: min-content;
-  grid-template-columns: auto 2fr 2fr 2fr;
+  grid-template-columns: auto 2fr auto 2fr;
   grid-auto-rows: min-content;
   gap: 1px 2px;
   align-items: center;
@@ -8927,6 +8935,7 @@ ______________________ */
 .ShipyardProjects__form-component___IroqKNt label {
   display: inline-block;
   min-width: 140px;
+  width: min-content;
   padding: 0 2px;
   line-height: 17px;
   color: #272727;
@@ -9533,16 +9542,16 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   height: 100%;
 }
 
-.SystemSearch__selector___qSOfNAb {
-  padding: 30px 15px;
-}
-
 .SystemInformation__table___mv_Dauw {
   table-layout: auto;
 }
 .SystemInformation__infrastructure___Ky3RPca {
   display: flex;
   flex-direction: column;
+}
+
+.SystemSearch__selector___qSOfNAb {
+  padding: 30px 15px;
 }
 
 /* --------- OPTIONS --------- */
