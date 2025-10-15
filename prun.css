@@ -2016,6 +2016,7 @@ ______________________ */
   flex-shrink: 1;
   width: 100%;
   min-width: 168px;
+  padding-bottom: 2px;
 }
 .ComponentOptionSelection__modifier___QRrJl2J {
   flex-grow: 1;
@@ -7243,6 +7244,10 @@ ______________________ */
   align-items: center;
 }
 
+.Program__empty___whQzxxA {
+  padding-top: 3em;
+}
+
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7287,10 +7292,6 @@ ______________________ */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.Program__empty___whQzxxA {
-  padding-top: 3em;
 }
 
 .DataIconsControl__button___Y6tLW9H {
