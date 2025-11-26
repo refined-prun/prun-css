@@ -922,7 +922,7 @@ ______________________ */
   background-color: #333;
 }
 .ScrollView__view___ovf59Tk {
-  padding-right: 6px;
+  padding-right: 10px;
 }
 .ScrollView__viewMobile___ej9LTvq {
   position: static !important;
@@ -1070,6 +1070,253 @@ ______________________ */
 /* color */
 /* --------- CHOICES - BASE --------- */
 /* colors */
+.Link__link___fa4mmMA {
+  display: inline;
+  color: #3fa2de;
+  cursor: pointer;
+}
+.Link__link___fa4mmMA:hover {
+  color: #f7a600;
+}
+
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/*   THEME
+______________________ */
+/* --------- OPTIONS --------- */
+/* Breakpoints */
+/* Colors */
+/* Typography */
+/* --------- CHOICES - BASE --------- */
+/* Breakpoints */
+/* Background */
+/* Border */
+/* Text Colors */
+/* --------- CHOICES - COMPONENTS --------- */
+/* BtnOpen */
+/* Card */
+/* Command */
+/* Footer */
+/* Figure */
+/* Header */
+/* Input */
+/* Inventory Transfer */
+/* Modal */
+/* Slider */
+/* Stacks */
+/* Tables */
+/* Mobile Transfer Overlay */
+/* Target Inventory */
+/* --------- CHOICES - Typography --------- */
+.SectionHeader__container___UXuTs3A {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0.5em 0 0.5em;
+  padding: 4px 4px 2px;
+  background-color: rgba(63, 162, 222, 0.15);
+  color: #bbb;
+}
+.SectionHeader__containerMobile___zUmGzL3 {
+  font-size: 1.5rem;
+  text-transform: initial;
+  margin: 3rem 0 1.5rem;
+  background: 0;
+  color: #fff;
+}
+
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/*   THEME
+______________________ */
+/* --------- OPTIONS --------- */
+/* Breakpoints */
+/* Colors */
+/* Typography */
+/* --------- CHOICES - BASE --------- */
+/* Breakpoints */
+/* Background */
+/* Border */
+/* Text Colors */
+/* --------- CHOICES - COMPONENTS --------- */
+/* BtnOpen */
+/* Card */
+/* Command */
+/* Footer */
+/* Figure */
+/* Header */
+/* Input */
+/* Inventory Transfer */
+/* Modal */
+/* Slider */
+/* Stacks */
+/* Tables */
+/* Mobile Transfer Overlay */
+/* Target Inventory */
+/* --------- CHOICES - Typography --------- */
+.Tooltip__container___O8IKVEa {
+  font-size: 11px;
+  line-height: 1.1;
+  float: right;
+}
+[data-tooltip] {
+  display: inline-block;
+  position: relative;
+  cursor: help;
+  padding: 0 4px 0;
+}
+[data-tooltip]:before {
+  content: attr(data-tooltip);
+  display: none;
+  position: absolute;
+  background: #262626;
+  color: #eee;
+  padding: 8px;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.1;
+  min-width: 200px;
+  text-align: left;
+  border-radius: 4px;
+  border: 2px solid #c48400;
+}
+[data-tooltip]:after {
+  content: '';
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+[data-tooltip-position="top"]:before {
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 100%;
+  margin-bottom: 6px;
+}
+@media only screen and (max-width: 991px) {
+  [data-tooltip-position="top"]:before {
+    left: auto;
+    right: 0;
+    transform: translateX(0);
+  }
+}
+[data-tooltip-position="top"]:after {
+  left: 50%;
+  margin-left: -6px;
+  bottom: 100%;
+  border-width: 6px 6px 0;
+  border-top-color: #c48400;
+}
+[data-tooltip-position="bottom"]:before {
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 100%;
+  margin-bottom: 6px;
+}
+@media only screen and (max-width: 991px) {
+  [data-tooltip-position="bottom"]:before {
+    left: auto;
+    right: 0;
+    transform: translateX(0);
+  }
+}
+[data-tooltip-position="bottom"]:after {
+  left: 50%;
+  margin-left: -6px;
+  top: 100%;
+  border-width: 6px 6px 0;
+  border-top-color: #c48400;
+}
+[data-tooltip-position="left"]:before {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  margin-right: 6px;
+}
+[data-tooltip-position="left"]:after {
+  right: 100%;
+  top: 50%;
+  margin-top: -6px;
+  margin-right: -6px;
+  border-width: 6px;
+  border-left-color: #c48400;
+}
+[data-tooltip-position="right"]:before {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 100%;
+  margin-right: 6px;
+}
+[data-tooltip-position="right"]:after {
+  left: 100%;
+  top: 50%;
+  margin-top: -6px;
+  margin-right: -6px;
+  border-width: 6px;
+  border-left-color: #c48400;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  display: block;
+  z-index: 50;
+}
+
+/*   THEME
+______________________ */
+/* --------- OPTIONS --------- */
+/* Breakpoints */
+/* Colors */
+/* Typography */
+/* --------- CHOICES - BASE --------- */
+/* Breakpoints */
+/* Background */
+/* Border */
+/* Text Colors */
+/* --------- CHOICES - COMPONENTS --------- */
+/* BtnOpen */
+/* Card */
+/* Command */
+/* Footer */
+/* Figure */
+/* Header */
+/* Input */
+/* Inventory Transfer */
+/* Modal */
+/* Slider */
+/* Stacks */
+/* Tables */
+/* Mobile Transfer Overlay */
+/* Target Inventory */
+/* --------- CHOICES - Typography --------- */
+.TableContainer__tableContainerMobile___Vwkke4A {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -1116,19 +1363,6 @@ ______________________ */
 }
 .ActionBar__elementMobile___do9I_PT {
   margin: 0.5rem;
-}
-
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-.Link__link___fa4mmMA {
-  display: inline;
-  color: #3fa2de;
-  cursor: pointer;
-}
-.Link__link___fa4mmMA:hover {
-  color: #f7a600;
 }
 
 /* --------- OPTIONS --------- */
@@ -1446,162 +1680,10 @@ ______________________ */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
-}
-.MaterialList__container___B_lbfy6 > div {
-  margin-right: 2px;
-}
-
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/*   THEME
-______________________ */
-/* --------- OPTIONS --------- */
-/* Breakpoints */
-/* Colors */
-/* Typography */
-/* --------- CHOICES - BASE --------- */
-/* Breakpoints */
-/* Background */
-/* Border */
-/* Text Colors */
-/* --------- CHOICES - COMPONENTS --------- */
-/* BtnOpen */
-/* Card */
-/* Command */
-/* Footer */
-/* Figure */
-/* Header */
-/* Input */
-/* Inventory Transfer */
-/* Modal */
-/* Slider */
-/* Stacks */
-/* Tables */
-/* Mobile Transfer Overlay */
-/* Target Inventory */
-/* --------- CHOICES - Typography --------- */
-.Tooltip__container___O8IKVEa {
-  font-size: 11px;
-  line-height: 1.1;
-  float: right;
-}
-[data-tooltip] {
-  display: inline-block;
-  position: relative;
-  cursor: help;
-  padding: 4px 4px 0;
-}
-[data-tooltip]:before {
-  content: attr(data-tooltip);
-  display: none;
-  position: absolute;
-  background: #262626;
-  color: #eee;
-  padding: 8px;
-  font-size: 11px;
-  font-weight: normal;
-  line-height: 1.1;
-  min-width: 200px;
-  text-align: left;
-  border-radius: 4px;
-  border: 2px solid #c48400;
-}
-[data-tooltip]:after {
-  content: '';
-  display: none;
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-[data-tooltip-position="top"]:before {
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: 100%;
-  margin-bottom: 6px;
-}
-@media only screen and (max-width: 991px) {
-  [data-tooltip-position="top"]:before {
-    left: auto;
-    right: 0;
-    transform: translateX(0);
-  }
-}
-[data-tooltip-position="top"]:after {
-  left: 50%;
-  margin-left: -6px;
-  bottom: 100%;
-  border-width: 6px 6px 0;
-  border-top-color: #c48400;
-}
-[data-tooltip-position="bottom"]:before {
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  top: 100%;
-  margin-bottom: 6px;
-}
-@media only screen and (max-width: 991px) {
-  [data-tooltip-position="bottom"]:before {
-    left: auto;
-    right: 0;
-    transform: translateX(0);
-  }
-}
-[data-tooltip-position="bottom"]:after {
-  left: 50%;
-  margin-left: -6px;
-  top: 100%;
-  border-width: 6px 6px 0;
-  border-top-color: #c48400;
-}
-[data-tooltip-position="left"]:before {
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 100%;
-  margin-right: 6px;
-}
-[data-tooltip-position="left"]:after {
-  right: 100%;
-  top: 50%;
-  margin-top: -6px;
-  margin-right: -6px;
-  border-width: 6px;
-  border-left-color: #c48400;
-}
-[data-tooltip-position="right"]:before {
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 100%;
-  margin-right: 6px;
-}
-[data-tooltip-position="right"]:after {
-  left: 100%;
-  top: 50%;
-  margin-top: -6px;
-  margin-right: -6px;
-  border-width: 6px;
-  border-left-color: #c48400;
-}
-[data-tooltip]:hover:before,
-[data-tooltip]:hover:after {
-  display: block;
-  z-index: 50;
+  justify-content: flex-end;
+  column-gap: 0.25rem;
+  row-gap: 0.25rem;
+  padding: 0.1rem;
 }
 
 /* --------- OPTIONS --------- */
@@ -1646,7 +1728,10 @@ ______________________ */
   font-size: 11px;
 }
 .forms__form-component___yTgP_Qa label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -1876,8 +1961,6 @@ ______________________ */
 /* Target Inventory */
 /* --------- CHOICES - Typography --------- */
 .FormComponent__label___aQB15eB {
-  display: flex;
-  flex-direction: row;
 }
 .FormComponent__containerActive___HZv9jHd {
 }
@@ -1916,53 +1999,6 @@ ______________________ */
 .StaticInput__static___Vpn1u0n {
 }
 .StaticInput__staticMobile___ngn3bHr {
-}
-
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/*   THEME
-______________________ */
-/* --------- OPTIONS --------- */
-/* Breakpoints */
-/* Colors */
-/* Typography */
-/* --------- CHOICES - BASE --------- */
-/* Breakpoints */
-/* Background */
-/* Border */
-/* Text Colors */
-/* --------- CHOICES - COMPONENTS --------- */
-/* BtnOpen */
-/* Card */
-/* Command */
-/* Footer */
-/* Figure */
-/* Header */
-/* Input */
-/* Inventory Transfer */
-/* Modal */
-/* Slider */
-/* Stacks */
-/* Tables */
-/* Mobile Transfer Overlay */
-/* Target Inventory */
-/* --------- CHOICES - Typography --------- */
-.SectionHeader__container___UXuTs3A {
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0.5em 0 0.5em;
-  padding: 4px 4px 2px;
-  background-color: rgba(63, 162, 222, 0.15);
-  color: #bbb;
-}
-.SectionHeader__containerMobile___zUmGzL3 {
-  font-size: 1.5rem;
-  text-transform: initial;
-  margin: 3rem 0 1.5rem;
-  background: 0;
-  color: #fff;
 }
 
 /* --------- OPTIONS --------- */
@@ -2545,13 +2581,12 @@ ______________________ */
   display: flex;
   flex-direction: row;
   outline: none;
-  height: 17px;
+  min-height: 1rem;
 }
 .RadioItem__containerHorizontal____trlXDo {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  justify-content: center;
 }
 .RadioItem__indicator___QzQtjhA {
   display: inline-block;
@@ -2565,6 +2600,9 @@ ______________________ */
 .RadioItem__indicatorHorizontal___SwtwTIh {
   width: 100%;
   height: 2px;
+}
+.RadioItem__indicatorVertical___l4E876A {
+  min-height: 1rem;
 }
 .RadioItem__active___CDscOQV {
   background-color: #f7a600;
@@ -2875,7 +2913,10 @@ ______________________ */
   font-size: 11px;
 }
 .Prompt__form-component___j__5XdE label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -3111,10 +3152,11 @@ ______________________ */
   margin: 0;
   padding: 0;
   z-index: 500;
-  width: 500px;
+  min-width: 20rem;
   background-color: #262626;
   max-height: 30rem;
   overflow-y: auto;
+  overflow-x: visible;
   scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: #333;
@@ -3193,7 +3235,10 @@ ______________________ */
   font-size: 11px;
 }
 .UserSelector__form-component___WxWIl8a label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -4089,38 +4134,6 @@ ______________________ */
   padding-top: 4px;
 }
 
-/*   THEME
-______________________ */
-/* --------- OPTIONS --------- */
-/* Breakpoints */
-/* Colors */
-/* Typography */
-/* --------- CHOICES - BASE --------- */
-/* Breakpoints */
-/* Background */
-/* Border */
-/* Text Colors */
-/* --------- CHOICES - COMPONENTS --------- */
-/* BtnOpen */
-/* Card */
-/* Command */
-/* Footer */
-/* Figure */
-/* Header */
-/* Input */
-/* Inventory Transfer */
-/* Modal */
-/* Slider */
-/* Stacks */
-/* Tables */
-/* Mobile Transfer Overlay */
-/* Target Inventory */
-/* --------- CHOICES - Typography --------- */
-.TableContainer__tableContainerMobile___Vwkke4A {
-  overflow-x: scroll;
-  max-width: 100%;
-}
-
 .BrokerList__table___ylgeiyg td {
   vertical-align: top;
 }
@@ -4280,7 +4293,10 @@ ______________________ */
   font-size: 11px;
 }
 .MaterialSelector__form-component___qS05mJn label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -4856,57 +4872,33 @@ ______________________ */
     transform: scale(0, 0);
   }
 }
-.rc-tooltip {
+.rc-slider [data-slider-tooltip]::before, .rc-slider [data-slider-tooltip]::after {
   position: absolute;
-  left: -9999px;
-  top: -9999px;
-  z-index: 4;
-  visibility: visible;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rc-tooltip * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-@media only screen and (max-width: 991px) {
-  .rc-tooltip {
-    height: 1px;
-    background-color: #979797;
-  }
-}
-.rc-tooltip-hidden {
-  display: none;
-}
-.rc-tooltip-placement-top {
-  padding: 4px 0 8px 0;
-}
-.rc-tooltip-inner {
-  padding: 6px 2px;
-  min-width: 24px;
-  height: 24px;
-  font-size: 12px;
-  line-height: 1;
-  color: #ddd;
-  text-align: center;
-  text-decoration: none;
-  background-color: #6c6c6c;
-  border-radius: 6px;
-  box-shadow: 0 0 4px #d9d9d9;
-}
-.rc-tooltip-arrow {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.rc-tooltip-placement-top .rc-tooltip-arrow {
-  bottom: 4px;
+  top: -6px;
   left: 50%;
-  margin-left: -4px;
-  border-width: 4px 4px 0;
-  border-top-color: #6c6c6c;
+  display: none;
+  z-index: 10;
+}
+.rc-slider [data-slider-tooltip]::before {
+  content: "";
+  transform: translateX(-50%);
+  border-width: 4px 6px 0 6px;
+  border-style: solid;
+  border-color: #262626 transparent transparent transparent;
+}
+.rc-slider [data-slider-tooltip]::after {
+  content: attr(data-slider-tooltip);
+  transform: translateX(-50%) translateY(-100%);
+  background: #262626;
+  text-transform: none;
+  color: #999;
+  font-size: 12px;
+  border-radius: 5px;
+  pointer-events: none;
+  padding: 4px 4px;
+}
+.rc-slider:active [data-slider-tooltip]::before, .rc-slider:active [data-slider-tooltip]::after, .rc-slider-handle:hover [data-slider-tooltip]::before, .rc-slider-handle:hover [data-slider-tooltip]::after {
+  display: block;
 }
 
 .StoreSelect__container___tDwUv6W {
@@ -5013,8 +5005,6 @@ ______________________ */
 /* Target Inventory */
 /* --------- CHOICES - Typography --------- */
 .FormComponent__label___dn5rq4s {
-  display: flex;
-  flex-direction: row;
 }
 .FormComponent__containerHidden___XmtKB6s {
   display: none;
@@ -5068,7 +5058,10 @@ ______________________ */
   font-size: 11px;
 }
 .AddressSelector__form-component___o_zVEMc label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -5307,10 +5300,18 @@ ______________________ */
 }
 .AddressSelector__suggestionsContainer___gbNqUwJ {
 }
+.AddressSelector__suggestionsContainerOpen___LGiLgJO {
+}
 .AddressSelector__suggestionsList___scSFBGm {
 }
 .AddressSelector__suggestion___CPBsljr {
   text-align: left;
+}
+.AddressSelector__suggestionContent___Go1b_zn {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.2rem;
 }
 .AddressSelector__suggestionHighlighted___DqEHbkh {
 }
@@ -5322,6 +5323,13 @@ ______________________ */
   z-index: 1;
   position: relative;
   width: 100%;
+}
+
+.AddressTypeIcon__icon___Or5xdaG {
+  width: 0.65rem;
+  height: 0.65rem;
+  object-fit: contain;
+  filter: brightness(0.5);
 }
 
 /* --------- OPTIONS --------- */
@@ -6134,6 +6142,17 @@ ______________________ */
   cursor: pointer;
 }
 
+.InlineFlex__inlineFlex___f1_sK2m {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Costs__container___paVD8Ug {
+  display: flex;
+  flex-direction: column;
+}
+
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6153,6 +6172,18 @@ ______________________ */
 .MissionPlan__vertical___ivkxpoF {
   display: flex;
   flex-direction: column;
+}
+.MissionPlan__warning___rVaUvQ5 {
+  color: #d9534f;
+}
+
+.RoutePreferencesSelect__container___w1GygvL {
+  display: flex;
+  flex-direction: column;
+  grid-auto-columns: min-content;
+  grid-template-columns: 2.5fr 0.5fr;
+  grid-auto-rows: min-content;
+  gap: 0.5em;
 }
 
 /* --------- OPTIONS --------- */
@@ -7161,12 +7192,118 @@ ______________________ */
   padding: 1rem;
 }
 
-.PlanetaryInfrastructure__container___fm2tfmM {
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+.IncrementalNumberInput__container___rgJ236J {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.IncrementalNumberInput__number___Sc44DdT {
+}
+.IncrementalNumberInput__disabled___j3ebvF0 {
+  color: #444;
+}
+.IncrementalNumberInput__container___rgJ236J > button {
+  min-width: 1rem;
+  margin-left: 0.5rem;
+}
+
+.GatewayReachableSystems__container___k3jvOdB {
+  max-height: 5rem;
+}
+
+.Centered__centered___uM1AAUA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Gateway__incomingLinks___t11_rk7 {
   display: flex;
   flex-direction: column;
 }
-.PlanetaryInfrastructure__row___vzqFIpy > span {
+.Gateway__centered___TAUb4Ff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Gateway__list___ARCosoK {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+.RecentJumps__text-regular___HXBECIP {
+  color: #999;
+}
+.RecentJumps__text-bright___ipGuY7E {
+  color: #eee;
+}
+.RecentJumps__text-disabled___bjCz0w3 {
+  color: #444;
+}
+.RecentJumps__text-success___gCfv3P_ {
+  color: #5cb85c;
+}
+.RecentJumps__text-danger___SZUynZg {
+  color: #d9534f;
+}
+.RecentJumps__text-warning___Wb708ag {
+  color: #f0ad4e;
+}
+.RecentJumps__warning___iBo4ePj {
+  color: #f0ad4e;
+}
+.RecentJumps__error___7TJ0Az3 {
+  color: #d9534f;
+}
+
+.PlanetaryProjectsList__container___cF3Vjfg {
+  display: flex;
+  flex-direction: column;
+}
+.PlanetaryProjectsList__row___EKC0RXc > span {
   padding-right: 0;
+}
+
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+.InfrastructureUpkeep__pills___FNFZy66 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0.2rem;
+  column-gap: 0.2rem;
+  padding: 0.2rem;
+}
+.InfrastructureUpkeep__upkeepPill___kBWnaQ0 {
+  width: 1.6rem;
+  height: 0.5rem;
+  border-radius: 10px;
+}
+.InfrastructureUpkeep__green___j4YVwKt {
+  background-color: #5cb85c;
+}
+.InfrastructureUpkeep__red___RW9jZzu {
+  background-color: #d9534f;
+}
+.InfrastructureUpkeep__upkeep___X9vUPvN {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
 }
 
 /* --------- OPTIONS --------- */
@@ -7947,7 +8084,7 @@ ______________________ */
 .ResourceTable__gridContainer___ymrzTcD {
   display: grid;
   grid-auto-columns: min-content;
-  grid-template-columns: auto 2fr auto 2fr;
+  grid-template-columns: auto 2fr auto 1.5fr 0.7fr;
   grid-auto-rows: min-content;
   gap: 1px 2px;
   align-items: center;
@@ -8593,6 +8730,14 @@ ______________________ */
 .Header__naturalId___CtoGg44 {
 }
 
+.ItemsRow__container___xBwzAWb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.2rem;
+}
+
 .Motion__input___g4t4Pu2 {
 }
 
@@ -8939,7 +9084,10 @@ ______________________ */
   font-size: 11px;
 }
 .ShipyardProjects__form-component___IroqKNt label {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   min-width: 140px;
   width: min-content;
   padding: 0 2px;
@@ -9522,6 +9670,7 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .InventoriesListContainer__filter___x0VgzsU {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   padding: 4px;
   background: #23282b;
 }
