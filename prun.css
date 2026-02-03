@@ -6219,6 +6219,7 @@ ______________________ */
   background-color: #262626;
   width: 64px;
   margin: 3px;
+  padding: 2px;
   overflow: hidden;
   word-break: break-word;
   -webkit-user-select: auto;
@@ -6238,6 +6239,11 @@ ______________________ */
   font-weight: bold;
   padding-top: 2px;
   color: #bbb;
+}
+.GridItemView__selected___aCJ4H9R {
+  background-color: rgba(63, 162, 222, 0.15);
+  border-radius: 3px;
+  border: 1px solid rgba(63, 162, 222, 0.5);
 }
 
 /* --------- OPTIONS --------- */
@@ -6362,6 +6368,13 @@ ______________________ */
 .InventoryView__controls___NRfMthq {
   display: flex;
   flex-direction: row;
+}
+.InventoryView__marquee___pKOpJ33 {
+  position: fixed;
+  border: 1px dashed rgba(63, 162, 222, 0.5);
+  background: rgba(77, 163, 255, 0.15);
+  pointer-events: none;
+  z-index: 1000;
 }
 .InventoryView__containerMobile___LgAA_lt .InventoryView__grid___UyRQSX8 {
   justify-content: flex-start;
@@ -6807,10 +6820,12 @@ ______________________ */
   justify-content: space-evenly;
 }
 .DropTargetView__item___gaP2XJl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 45px;
   height: 45px;
-  text-align: center;
-  line-height: 45px;
   color: #3fa2de;
   border: 1px solid #3fa2de;
 }
@@ -10994,8 +11009,9 @@ ______________________ */
 .CompanyCreation__container___yyFyl2n {
   display: flex;
   flex-direction: row;
-  height: 100%;
+  height: 100vh;
   padding: 1em;
+  box-sizing: border-box;
 }
 .CompanyCreation__heading___PgkbwUB {
   color: #999;
@@ -11004,6 +11020,8 @@ ______________________ */
   margin-top: 0;
 }
 .CompanyCreation__left___dKMyK0u {
+  display: flex;
+  flex-direction: column;
   flex-grow: 2;
   min-height: 0;
   height: 100%;
@@ -11014,26 +11032,41 @@ ______________________ */
   flex-direction: column;
   flex-grow: 3;
   min-width: 60%;
+  padding-bottom: 1rem;
 }
-.CompanyCreation__overflowContainer___To2nmbu {
+.CompanyCreation__content___KNXgyu9 {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 0;
+}
+.CompanyCreation__step___T9pZaCJ {
+  flex: 1 1 auto;
   overflow-y: auto;
+  padding-bottom: 2rem;
   scrollbar-gutter: stable;
   scrollbar-width: auto;
   scrollbar-color: #333;
 }
-.CompanyCreation__overflowContainer___To2nmbu::-webkit-scrollbar {
+.CompanyCreation__step___T9pZaCJ::-webkit-scrollbar {
   width: 11px;
 }
-.CompanyCreation__overflowContainer___To2nmbu::-webkit-scrollbar-track {
+.CompanyCreation__step___T9pZaCJ::-webkit-scrollbar-track {
   background: #222;
 }
-.CompanyCreation__overflowContainer___To2nmbu::-webkit-scrollbar-thumb {
+.CompanyCreation__step___T9pZaCJ::-webkit-scrollbar-thumb {
   background-color: #333;
   border-radius: 5px;
   border: 3px solid #333;
+}
+.CompanyCreation__footer___nv4Qfnn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: sticky;
+  bottom: 0;
+  height: 2rem;
+  background: #262626;
 }
 
 /* --------- OPTIONS --------- */
@@ -11648,7 +11681,7 @@ strong {
 .ScreenControls__selector___miYQ63O ul {
   display: none;
 }
-.ScreenControls__selector___miYQ63O:hover ul {
+.ScreenControls__selector___miYQ63O.ScreenControls__open___kn0Itpe ul {
   display: block;
 }
 .ScreenControls__screens___GMA5Irm {
