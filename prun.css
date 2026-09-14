@@ -26,7 +26,6 @@
   left: -4px;
   width: 9px;
 }
-
 .Node__node___dNd8Rux {
   position: absolute;
   top: 0;
@@ -59,7 +58,6 @@
 }
 .Node__child2___S2f3l8L {
 }
-
 @font-face {
   font-family: 'Audiowide';
   src: url(https://apex.prosperousuniverse.com/assets/fonts/bda2189c1725392c.ttf);
@@ -97,7 +95,6 @@
 .fonts__font-regular___Sxp1xjo {
   font-family: 'Droid Sans', sans-serif;
 }
-
 .type__type-intro___V3yrYdz {
   font-size: 52px;
   line-height: 1.3;
@@ -134,7 +131,6 @@
   font-size: 12px;
   line-height: 1.1;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -220,7 +216,6 @@ ______________________ */
   text-transform: uppercase;
   padding: 3rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -306,7 +301,6 @@ ______________________ */
   line-height: 1.5;
   padding: 1rem 3rem 3rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -386,7 +380,6 @@ ______________________ */
   line-height: 1.5;
   padding: 1rem 3rem 3rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -406,7 +399,6 @@ ______________________ */
   color: #272727;
   background-color: #f7a600;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -445,7 +437,6 @@ ______________________ */
   color: #151F2E;
   border-radius: 100%;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -612,7 +603,6 @@ ______________________ */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -711,7 +701,6 @@ ______________________ */
   max-width: 1.8rem;
   margin: 0 0 0.25rem;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -865,14 +854,12 @@ ______________________ */
   letter-spacing: 0.5px;
   color: #979797;
 }
-
 .Loading__loader___t97qqaP {
   width: 100%;
   height: 100%;
   min-height: 50px;
   background: url(https://apex.prosperousuniverse.com/assets/images/e6beb57b5029365c.gif) no-repeat 50% 50%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -932,7 +919,6 @@ ______________________ */
 .ScrollView__viewMobile___ej9LTvq {
   position: static !important;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -966,7 +952,6 @@ ______________________ */
 .ContextControls__item____QDkFMH:hover .ContextControls__label___xomE3De {
   display: inline;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1011,7 +996,6 @@ ______________________ */
 .TileControls__splitControls___fcU57en {
   display: inline-block;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1057,6 +1041,9 @@ ______________________ */
   bottom: 0;
   width: 100%;
 }
+.TileFrame__anchorDragging___A3UPnip {
+  visibility: hidden;
+}
 .TileFrame__controls___g5J41WG {
   position: absolute;
   top: 0;
@@ -1064,7 +1051,6 @@ ______________________ */
   display: flex;
   flex-direction: row;
 }
-
 .ApexMobile__container___UzSLKPT {
   display: flex;
   flex-direction: column;
@@ -1073,7 +1059,6 @@ ______________________ */
 .ApexMobile__text___N4yN35A {
   padding-bottom: 5px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1087,7 +1072,6 @@ ______________________ */
 .Link__link___fa4mmMA:hover {
   color: #f7a600;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1138,7 +1122,6 @@ ______________________ */
   background: 0;
   color: #fff;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1291,7 +1274,6 @@ ______________________ */
   display: block;
   z-index: 50;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -1323,7 +1305,6 @@ ______________________ */
   overflow-x: scroll;
   max-width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1376,7 +1357,6 @@ ______________________ */
 .ActionBar__elementMobile___do9I_PT {
   margin: 0.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1440,7 +1420,6 @@ ______________________ */
 .ActionFeedback__progress___PgMTDkB .ActionFeedback__message___G2Sz4bw {
   background-color: #f0ad4e;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1483,7 +1462,6 @@ ______________________ */
   margin: 0 1rem;
   padding: 1rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1512,7 +1490,6 @@ ______________________ */
 .Banner__buttons___zmHzawH > div {
   padding-left: 4px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1576,7 +1553,6 @@ ______________________ */
   text-align: center;
   overflow: hidden;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -1692,7 +1668,6 @@ ______________________ */
   -ms-user-select: none;
   user-select: none;
 }
-
 .MaterialList__container___B_lbfy6 {
   display: flex;
   flex-direction: row;
@@ -1702,7 +1677,6 @@ ______________________ */
   row-gap: 0.25rem;
   padding: 0.1rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -1946,7 +1920,6 @@ ______________________ */
 }
 .forms__cmdMobile___umAAAZy {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2014,12 +1987,10 @@ ______________________ */
 .FormComponent__errorMessageMobile___YRIH1QO {
   padding: 0.35rem;
 }
-
 .StaticInput__static___Vpn1u0n {
 }
 .StaticInput__staticMobile___ngn3bHr {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2055,7 +2026,6 @@ ______________________ */
 .Blueprint__inputMobile___jodtXs_ {
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2082,7 +2052,6 @@ ______________________ */
   overflow-wrap: break-word;
   margin-right: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2141,7 +2110,6 @@ ______________________ */
   font-weight: bold;
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2165,7 +2133,6 @@ ______________________ */
 .colors__text-warning___UZbRBLY {
   color: #f0ad4e;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2258,7 +2225,6 @@ ______________________ */
 .BuildingInformation__capacityValue___oYpfprU {
   color: #777;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2399,7 +2365,6 @@ ______________________ */
     opacity: 1;
   }
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2459,7 +2424,6 @@ ______________________ */
 .RadioItem__valueDisabled___sI0c8N6:hover {
   color: #444;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2477,7 +2441,6 @@ ______________________ */
   padding-right: 5px;
   margin-top: 5px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2486,7 +2449,6 @@ ______________________ */
 .StringHighlight__highlight___nVoOJGB {
   text-decoration: underline;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2543,7 +2505,6 @@ ______________________ */
   background-color: rgba(63, 162, 222, 0.15);
   color: #bbb;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2822,7 +2783,6 @@ ______________________ */
 .MaterialSelector__suggestionName___iLkm1Y3 {
   padding-left: 4px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2852,7 +2812,6 @@ ______________________ */
   position: relative;
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2872,7 +2831,6 @@ ______________________ */
 .react-inflationcharts-tooltip-label {
   fill: rgba(247, 166, 0, 0.5);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2923,7 +2881,6 @@ ______________________ */
 .Overlay__overlayMobile___HNVPJWP {
   padding: 2rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -2990,7 +2947,6 @@ ______________________ */
   position: static !important;
   margin: 2rem 0 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3056,12 +3012,10 @@ ______________________ */
   font-size: 1.5rem;
   padding: 1.5rem;
 }
-
 .DynamicInput__dynamic___Cd4Gkbz {
 }
 .DynamicInput__dynamicMobile___b6M54d7 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3074,7 +3028,6 @@ ______________________ */
 }
 .CreateForm__header___w4TAaRq {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3083,7 +3036,6 @@ ______________________ */
 .SelectButton__container___vjN14Xf {
   padding: 3px 3px 3px 1px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3103,7 +3055,6 @@ ______________________ */
   background-color: rgba(217, 83, 79, 0);
   transition: background-color 1000ms ease-in;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3115,21 +3066,17 @@ ______________________ */
 .ColoredValue__negative___cq9dP4w {
   color: #d9534f;
 }
-
 .ComExInlineTickerQuote__container___ka7T1OT {
   display: inline-block;
 }
-
 .ForExInlineTickerQuote__container___GZFO_Ed {
   display: inline-block;
 }
-
 .ChatMessage__message___tgiSQwR {
   background-color: #333;
   font-style: italic;
   cursor: pointer;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3234,7 +3181,6 @@ ______________________ */
 .Message__messageMobile___SU3Kt9q .Message__text___gfujjNa {
   line-height: 1.35;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3261,7 +3207,6 @@ ______________________ */
 .Sender__supporter___HOB6ERJ {
   color: #11806a;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3274,7 +3219,6 @@ ______________________ */
 .links__textLink___IIVhqub:hover {
   color: #3fa2de;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3320,7 +3264,6 @@ ______________________ */
   color: #bbb;
   font-style: italic;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3579,7 +3522,6 @@ ______________________ */
 .Prompt__promptMobile___lNxEGog input {
   padding: 1.5rem 0.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3859,7 +3801,6 @@ ______________________ */
 .UserSelector__suggestionName___iW0z86G {
   padding-left: 4px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3872,7 +3813,6 @@ ______________________ */
 }
 .AddUser__header___pGQjC3X {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -3937,7 +3877,6 @@ ______________________ */
   font-size: 1.5rem;
   margin: 0.5rem 1rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4081,7 +4020,6 @@ ______________________ */
 div[class*="cardBuffer"] div[class*="Channel__containerMobile"] {
   padding: 0 0 2.5rem;
 }
-
 .ChannelMembership__actionPanel___ui86qPN {
   display: flex;
   flex-direction: column;
@@ -4093,7 +4031,6 @@ div[class*="cardBuffer"] div[class*="Channel__containerMobile"] {
   text-align: center;
   padding: 0 30px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4187,7 +4124,6 @@ ______________________ */
 .ChannelCatalog__channelMobile___h5zlhIS {
   padding: 1rem 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4196,7 +4132,6 @@ ______________________ */
 .BrokerFrame__unknownTicker___zhdBwpP {
   padding: 8px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4222,10 +4157,8 @@ ______________________ */
 .ComExOrderBookPanel__empty___yl28RaU {
   text-align: center;
 }
-
 .ComExPlaceOrderForm__form___YrY3bc5 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4243,7 +4176,6 @@ ______________________ */
 .react-stockcharts-tooltip-label {
   fill: rgba(247, 166, 0, 0.5);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4317,7 +4249,6 @@ ______________________ */
     width: calc(50% - 5px);
   }
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4353,7 +4284,6 @@ ______________________ */
 }
 .ComExPricePanel__infoMobile___DKbcre6 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4404,7 +4334,6 @@ ______________________ */
   margin: 2.5rem auto 0.5em;
   color: #91DEFF;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -4461,7 +4390,6 @@ ______________________ */
   color: #151F2E;
   border-radius: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4493,7 +4421,6 @@ ______________________ */
   padding-bottom: 4px;
   padding-top: 4px;
 }
-
 .BrokerList__table___ylgeiyg td {
   vertical-align: top;
 }
@@ -4508,14 +4435,12 @@ ______________________ */
 }
 .BrokerList__change____R07Mji {
 }
-
 .ComExPanel__input___JmhH2Yn {
 }
 .ComExPanel__infrastructure___qqILv4I {
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4532,7 +4457,6 @@ ______________________ */
 .OrderStatusLabel__DELETED___yE1zgS3 {
   color: #d9534f;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4544,14 +4468,12 @@ ______________________ */
 .OrderTypeLabel__SELLING___PTqYaFn {
   color: #d9534f;
 }
-
 .ComExOrderPanel__tradesEmpty___PIf5KSp {
   text-align: center;
 }
 .ComExOrderPanel__number___PdpSDNU {
   text-align: right;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4613,7 +4535,6 @@ ______________________ */
 .styles__hint___WBvuDcH {
   max-width: 15em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4629,11 +4550,9 @@ ______________________ */
   top: -1px;
   background: #23282b;
 }
-
 .ComExOrdersTable__number___FW0SAqs {
   text-align: right;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4724,7 +4643,6 @@ progress::-moz-progress-bar {
   align-items: flex-start;
   margin: 0.25rem 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -4988,11 +4906,9 @@ ______________________ */
 .rc-slider:active [data-slider-tooltip]::before, .rc-slider:active [data-slider-tooltip]::after, .rc-slider-handle:hover [data-slider-tooltip]::before, .rc-slider-handle:hover [data-slider-tooltip]::after {
   display: block;
 }
-
 .StoreSelect__container___tDwUv6W {
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5019,7 +4935,6 @@ ______________________ */
   border: 1px solid #2b485a;
   background: #222 repeating-linear-gradient(-45deg, transparent, transparent 25px, #262626 25px, #262626 50px);
 }
-
 .CompanyHeadquarters__container___JGfEYgO {
   display: flex;
   flex-direction: column;
@@ -5030,7 +4945,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 .BuildingList__materiallist___pCknt1X {
   display: flex;
   flex-direction: row;
@@ -5044,7 +4958,6 @@ ______________________ */
   padding: 2px 4px;
   margin-bottom: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5062,7 +4975,6 @@ ______________________ */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5133,7 +5045,6 @@ ______________________ */
 .FormComponent__errorMessageMobile___DqpUBEu {
   padding: 0.35rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5416,14 +5327,12 @@ ______________________ */
   position: relative;
   width: 100%;
 }
-
 .AddressTypeIcon__icon___Or5xdaG {
   width: 0.65rem;
   height: 0.65rem;
   object-fit: contain;
   filter: brightness(0.5);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5434,7 +5343,6 @@ ______________________ */
   padding-bottom: 1rem;
   background-color: #262626;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5478,7 +5386,6 @@ ______________________ */
 .Draft__inputMobile___hBqnA_K {
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5510,7 +5417,6 @@ ______________________ */
 .TextareaInput__inputMobile___GAbalN1 {
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5539,7 +5445,6 @@ ______________________ */
   margin-top: 0.1rem;
   margin-right: 0.1rem;
 }
-
 .AgentPreamble__container___OYOT2Bq p {
   white-space: pre-wrap;
   font-family: monospace;
@@ -5561,7 +5466,6 @@ ______________________ */
 .AgentPreamble__columnC___wxVFFSE {
   grid-column-start: 3;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5579,7 +5483,6 @@ ______________________ */
 .ContractStatus__partial___i7_5YRw {
   color: #f0ad4e;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5598,7 +5501,6 @@ ______________________ */
 .Contract__inactive___TncSpWB {
   color: #777;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5614,7 +5516,6 @@ ______________________ */
   top: -1px;
   background: #23282b;
 }
-
 .CorporationInviteContainer__actionPanel___wtg2wgn {
   display: flex;
   flex-direction: column;
@@ -5626,11 +5527,9 @@ ______________________ */
   text-align: center;
   padding: 0 30px;
 }
-
 .CorporationInvitesContainer__empty___usfQJ5R {
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5644,7 +5543,6 @@ ______________________ */
   background-color: rgba(63, 162, 222, 0.15);
   color: #bbb;
 }
-
 .CorporationNewProject__container___WvRhNCT {
   display: flex;
   flex-direction: column;
@@ -5678,7 +5576,6 @@ ______________________ */
   height: 225px;
   width: 100%;
 }
-
 .Satellites__name___m98noXQ {
   min-width: 5em;
   color: #647582;
@@ -5687,7 +5584,6 @@ ______________________ */
   font-size: 14px;
   white-space: nowrap;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5698,7 +5594,6 @@ ______________________ */
   flex-direction: row;
   height: 100%;
 }
-
 .PlotSelectionMapContainer__container___gacEI6i {
   position: absolute;
   top: 0;
@@ -5723,12 +5618,10 @@ ______________________ */
   text-align: left;
   margin-bottom: 5px;
 }
-
 .CorporationFinance__container___Sq4OWIm {
   display: flex;
   flex-direction: column;
 }
-
 .Contribution__contribute___WvHNcYB {
   display: flex;
   flex-direction: row;
@@ -5748,7 +5641,6 @@ ______________________ */
   justify-content: center;
   align-items: center;
 }
-
 .Contributions__contribute___Ood7qND {
   display: flex;
   flex-direction: row;
@@ -5767,7 +5659,6 @@ ______________________ */
   display: flex;
   justify-content: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5842,7 +5733,6 @@ ______________________ */
   color: #eee;
   font-weight: bold;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5880,7 +5770,6 @@ ______________________ */
 .CorporationProject__sectionHead___SiiwC2J {
   font-weight: bold;
 }
-
 .CorporationProjects__container___hwevIv7 {
   display: flex;
   flex-direction: column;
@@ -5890,7 +5779,6 @@ ______________________ */
   flex-direction: column;
   align-items: center;
 }
-
 .ShareholderCorporation__container___XXNWOF5 {
   display: flex;
   flex-direction: column;
@@ -5904,19 +5792,15 @@ ______________________ */
 }
 .ShareholderCorporation__code___kKgnxs9 {
 }
-
 .FormCorporationForm__form___F2Zksar {
 }
-
 .PendingInvites__empty___hEWPRvb {
   text-align: center;
 }
-
 .ShareholderNoCorporation__header___fb0B7OF {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
 .Country__image___PwWxM5L {
   display: flex;
   justify-content: center;
@@ -5929,7 +5813,6 @@ ______________________ */
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -5990,13 +5873,11 @@ ______________________ */
 .RatingIcon__u___mjURBcJ {
   color: #8b211e;
 }
-
 .CompanyPanel__container___sKseF1p {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6007,7 +5888,6 @@ ______________________ */
   flex-direction: column;
   height: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6035,7 +5915,6 @@ ______________________ */
   width: 64px;
   height: 64px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6045,12 +5924,10 @@ ______________________ */
   height: 100%;
   padding: 2px 0;
 }
-
 .StationInfrastructure__list___4R6bGp1 {
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6068,12 +5945,10 @@ ______________________ */
 .Badge__name___WM7YlTh {
   margin-left: 4px;
 }
-
 .UserOffices__list___iD0jR4b {
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6087,7 +5962,6 @@ ______________________ */
 }
 .Experts__figureMobile___E52Bc25 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6105,7 +5979,6 @@ ______________________ */
 .IncomeStatementPanel__number___RGvTE0H {
   text-align: right;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6120,11 +5993,9 @@ ______________________ */
 .LiquidAssetsPanel__number___dZ9GDS5 {
   text-align: right;
 }
-
 .CashBookings__number___AlR2VjG {
   text-align: right;
 }
-
 .FinanceOverviewPanel__header___nsbiSGv {
 }
 .FinanceOverviewPanel__data___Qst9H25 {
@@ -6135,7 +6006,6 @@ ______________________ */
 }
 .FinanceOverviewPanel__infoMobile____01s32L {
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -6204,7 +6074,6 @@ ______________________ */
   justify-content: space-between;
   margin: 0 0 1.5rem;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -6243,7 +6112,6 @@ ______________________ */
 .ShipFuel__containerMobile___IKrd3Ym {
   align-items: flex-start;
 }
-
 .ShipStore__store___LGSVWAy {
   display: flex;
   flex-direction: column;
@@ -6252,18 +6120,15 @@ ______________________ */
 .ShipStore__pointer___TQUMuFY {
   cursor: pointer;
 }
-
 .InlineFlex__inlineFlex___f1_sK2m {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
 .Costs__container___paVD8Ug {
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6288,7 +6153,6 @@ ______________________ */
 .MissionPlan__warning___rVaUvQ5 {
   color: #d9534f;
 }
-
 .RoutePreferencesSelect__container___w1GygvL {
   display: flex;
   flex-direction: column;
@@ -6297,7 +6161,6 @@ ______________________ */
   grid-auto-rows: min-content;
   gap: 0.5em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6310,7 +6173,6 @@ ______________________ */
 }
 .FlightControlView__form___NG_Uzlu {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6323,7 +6185,6 @@ ______________________ */
 }
 .FlightView__form___cVTem2n {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6360,7 +6221,6 @@ ______________________ */
   border-radius: 3px;
   border: 1px solid rgba(63, 162, 222, 0.5);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6420,7 +6280,6 @@ ______________________ */
 .InventorySortControls__criteriaMobile___L54aUjV:first-of-type {
   padding-left: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6500,7 +6359,6 @@ ______________________ */
   margin: 0.5rem;
   padding: 0.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6534,7 +6392,6 @@ ______________________ */
   font-weight: bold;
   color: #bbb;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6557,7 +6414,6 @@ ______________________ */
   background-color: rgba(217, 83, 79, 0.2);
   background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(217, 83, 79, 0.1) 25%, rgba(217, 83, 79, 0.1) 50%);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6652,7 +6508,6 @@ ______________________ */
 .StoreView__containerMobile___Ssp6Iuw .StoreView__inventoryTransferWrapper___QQWCRZP > div[class*="inventory"] {
   width: 47%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6769,7 +6624,6 @@ ______________________ */
   padding-left: 2px;
   text-align: left;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -6813,7 +6667,6 @@ ______________________ */
   margin: 0 0 2.5rem !important;
   color: #979797 !important;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6870,10 +6723,8 @@ ______________________ */
 .DropDownBox__itemName___ZdFdY7H {
   padding-right: 4px;
 }
-
 .MobileTransferStoreAndItemSelectionModal__container___wz3wvvc {
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -6925,7 +6776,6 @@ ______________________ */
   background-color: #5DA8E2;
   color: #fff;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6961,7 +6811,6 @@ ______________________ */
   color: #d9534f;
   border: 1px solid #d9534f;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -6980,7 +6829,6 @@ ______________________ */
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .ShipFuelInventory__container___r7ive37 {
   display: flex;
   flex-direction: row;
@@ -7001,7 +6849,6 @@ ______________________ */
 .ShipFuelInventory__containerMobile___g_30npb {
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7077,7 +6924,6 @@ ______________________ */
 .Ship__containerMobile___Lpzr5pV .Ship__image___k6ZJfsI {
   margin: 0 1rem 0 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7103,7 +6949,6 @@ ______________________ */
 .ForExOrderBook__empty___fyonbZ4 {
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7139,7 +6984,6 @@ ______________________ */
 }
 .ForExPrice__infoMobile___Wwfbx_Q {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7159,7 +7003,6 @@ ______________________ */
   background-color: rgba(217, 83, 79, 0);
   transition: background-color 1000ms ease-in;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7207,18 +7050,15 @@ ______________________ */
   padding: 2px;
   text-align: center;
 }
-
 .ForExOrderPanel__tradesEmpty___xoTGRnM {
   text-align: center;
 }
 .ForExOrderPanel__number___CLmXbMy {
   text-align: right;
 }
-
 .ForExOrdersTable__number___mhnRG4r {
   text-align: right;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7226,7 +7066,6 @@ ______________________ */
 /* tables */
 .ForExPlaceOrderForm__form___ZsSL77h {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7337,7 +7176,6 @@ ______________________ */
   font-size: 1.2rem;
   padding: 1rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7360,11 +7198,9 @@ ______________________ */
   min-width: 1rem;
   margin-left: 0.5rem;
 }
-
 .GatewayReachableSystems__container___k3jvOdB {
   max-height: 5rem;
 }
-
 .Centered__centered___uM1AAUA {
   display: flex;
   flex-direction: column;
@@ -7372,7 +7208,6 @@ ______________________ */
   align-items: center;
   padding: 1rem;
 }
-
 .Gateway__incomingLinks___t11_rk7 {
   display: flex;
   flex-direction: column;
@@ -7386,7 +7221,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7416,7 +7250,6 @@ ______________________ */
 .RecentJumps__error___7TJ0Az3 {
   color: #d9534f;
 }
-
 .PlanetaryProjectsList__container___cF3Vjfg {
   display: flex;
   flex-direction: column;
@@ -7424,7 +7257,6 @@ ______________________ */
 .PlanetaryProjectsList__row___EKC0RXc > span {
   padding-right: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7454,7 +7286,6 @@ ______________________ */
   flex-direction: row;
   gap: 0.25rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7514,7 +7345,6 @@ ______________________ */
   margin: 2.5rem auto 0.5em;
   color: #91DEFF;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7531,11 +7361,9 @@ ______________________ */
   flex-direction: row;
   align-items: center;
 }
-
 .Program__empty___whQzxxA {
   padding-top: 3em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7549,7 +7377,6 @@ ______________________ */
 .ProductionFeeForm__background___ViIz8tI {
   background-color: #262626;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7583,7 +7410,6 @@ ______________________ */
   justify-content: center;
   align-items: center;
 }
-
 .DataIconsControl__button___Y6tLW9H {
   display: flex;
   flex-direction: row;
@@ -7599,7 +7425,6 @@ ______________________ */
 .DataIconsControl__disabled___dIuAKLx:hover {
   filter: brightness(0) saturate(100%) invert(22%) sepia(0%) saturate(1537%) hue-rotate(155deg) brightness(108%) contrast(89%);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7633,7 +7458,6 @@ ______________________ */
   padding-top: 0.25em;
   border-bottom: 1px solid #444;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7687,7 +7511,6 @@ ______________________ */
   font-size: 1.2rem;
   padding: 0.5rem 0.75rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7717,7 +7540,6 @@ ______________________ */
 }
 .styles__hint___UGZFEW6 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7765,7 +7587,6 @@ ______________________ */
   flex-direction: row;
   align-items: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7785,7 +7606,6 @@ ______________________ */
 .UniverseMap__iconHighlightItem___Ad7dFgR {
   padding-top: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7925,7 +7745,6 @@ ______________________ */
 .MaterialInformation__recipeListMobile___UKNY6pu .MaterialInformation__recipeIcon___wbQBd5b {
   margin-bottom: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -7962,7 +7781,6 @@ ______________________ */
 .AlertListItem__indicatorRead___l_GPC_W {
   background-color: rgba(63, 162, 222, 0.15);
 }
-
 .NotificationsPanel__container___tQOlRoj {
   position: relative;
   display: flex;
@@ -7975,7 +7793,6 @@ ______________________ */
 .NotificationsPanel__otherContexts___kcsNGui {
   flex-grow: 1;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -8033,7 +7850,6 @@ ______________________ */
 .PlanetInfoMapContainer__containerMobile___qSfL8TZ .PlanetInfoMapContainer__actions____rE0VXY button {
   margin: 0 0 1.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8050,7 +7866,6 @@ ______________________ */
   min-height: 225px;
   width: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8109,7 +7924,6 @@ progress::-moz-progress-bar {
   left: -100px;
   font-size: small;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8191,7 +8005,6 @@ progress::-moz-progress-bar {
 .RangeBar__red___pEsXe3B::-moz-progress-bar {
   background: #d9534f;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8213,7 +8026,6 @@ progress::-moz-progress-bar {
   text-align: right;
   color: #777;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8264,11 +8076,9 @@ ______________________ */
 .ResourceTable__gridContainerMobile___xFsvMJE div[class*="MaterialIcon"] {
   margin: 0 0.5rem 0 0;
 }
-
 .PlanetSearch__selector___IzOxkJu {
   padding: 30px 15px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8306,7 +8116,6 @@ ______________________ */
 .PlanetaryProject__sectionHead___RvOKl3s {
   font-weight: bold;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8346,7 +8155,6 @@ ______________________ */
   top: 5px;
   right: 5px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8364,7 +8172,6 @@ ______________________ */
 .react-populationcharts-tooltip-label {
   fill: rgba(247, 166, 0, 0.5);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8427,7 +8234,6 @@ ______________________ */
 .InputsOutputsView__amountMissing___kgdxn7l {
   color: #d9534f;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8526,7 +8332,6 @@ ______________________ */
 .ProductionLine__containerMobile___XO_kfwd {
   min-width: initial;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8564,12 +8369,10 @@ ______________________ */
 .CollapsibleTableGroup__toggleCollapsed___zJXABWa {
   transform: rotate(-90deg);
 }
-
 .ImageIcon__icon___QoR9s24 {
   vertical-align: middle;
   display: inline-block;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8595,7 +8398,6 @@ ______________________ */
 .ProductionLines__slotsEmpty___VEK_09R {
   background: rgba(217, 83, 79, 0.4);
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8660,7 +8462,6 @@ ______________________ */
 .OrderSlot__containerMobile___ZuVbyOk .OrderSlot__info___cDrSxJo {
   margin: 0 0 0 1rem;
 }
-
 .OrderStatus__error___tUbpK5Q {
 }
 .OrderStatus__warning___D4uUg5s {
@@ -8669,7 +8470,6 @@ ______________________ */
 }
 .OrderStatus__regular___qX1MpWk {
 }
-
 .OrderTile__container___uOibGrQ {
   position: relative;
   width: 32px;
@@ -8692,7 +8492,6 @@ ______________________ */
 }
 .OrderTile__dimmed___VzYtbsR {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8830,7 +8629,6 @@ ______________________ */
   padding: 0.75rem 1rem 1rem;
   border-bottom: 1px solid rgba(159, 186, 156, 0.4);
 }
-
 .ProductionQueue__figures___curZZZ6 {
 }
 .ProductionQueue__figure___VS7OerK {
@@ -8877,7 +8675,6 @@ ______________________ */
 }
 .ProductionQueue__figureMobile___B6EKTSe {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8897,7 +8694,6 @@ ______________________ */
   align-self: center;
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8907,7 +8703,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8917,7 +8712,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8927,7 +8721,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8954,7 +8747,6 @@ ______________________ */
 .Carousel__button___SBuAUTp:hover {
   color: #3fa2de;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8973,7 +8765,6 @@ ______________________ */
 }
 .Header__naturalId___CtoGg44 {
 }
-
 .ItemsRow__container___xBwzAWb {
   display: flex;
   flex-direction: row;
@@ -8981,10 +8772,8 @@ ______________________ */
   justify-content: space-evenly;
   gap: 0.2rem;
 }
-
 .Motion__input___g4t4Pu2 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9008,7 +8797,6 @@ ______________________ */
 .CoGC__description___KnECfoh {
   padding: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9046,7 +8834,6 @@ ______________________ */
 .CoGCUpkeep__sectionHead___relOjS2 {
   font-weight: bold;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9076,7 +8863,6 @@ ______________________ */
   text-align: justify;
   padding-bottom: 3px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9097,7 +8883,6 @@ ______________________ */
   align-self: center;
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9108,7 +8893,6 @@ ______________________ */
   flex-direction: column;
   height: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9126,7 +8910,6 @@ ______________________ */
 .AdStatus__partial___FOo712w {
   color: #f0ad4e;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9141,7 +8924,6 @@ ______________________ */
 .CommodityAd__text___xJQmJNa {
   flex-grow: 5;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9158,7 +8940,6 @@ ______________________ */
 .LocalMarketAds__item___VXdkPib:hover {
   cursor: pointer;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9226,7 +9007,6 @@ ______________________ */
 .HeadItem__indicatorDisabled___Y9ykf5f {
   background-color: #444;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9240,7 +9020,6 @@ ______________________ */
   padding-top: 2px;
   padding-bottom: 2px;
 }
-
 .LocalMarketPost__container___mfhtES6 {
   display: flex;
   flex-direction: column;
@@ -9249,7 +9028,6 @@ ______________________ */
 }
 .LocalMarketPost__amountMissing___MoP8Pxk {
 }
-
 .LocalMarketAd__container___aUTNR7F {
   display: flex;
   flex-direction: column;
@@ -9260,7 +9038,6 @@ ______________________ */
   display: flex;
   flex-direction: row;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9296,7 +9073,6 @@ ______________________ */
 .LocalMarket__filter___vANBFfG span {
   margin-right: 3px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9547,7 +9323,6 @@ ______________________ */
 .ShipyardProjects__info___J2YcyYu {
   margin-top: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9560,7 +9335,6 @@ ______________________ */
 .Shipyard__info___RFuNQvt {
   margin-top: 2px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9577,7 +9351,6 @@ ______________________ */
   display: flex;
   justify-content: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9630,7 +9403,6 @@ ______________________ */
   flex-direction: column;
   align-items: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9699,7 +9471,6 @@ ______________________ */
   flex-direction: row;
   align-items: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9730,7 +9501,6 @@ ______________________ */
 .BillOfMaterials__bad___ZVAE9UT {
   color: #d9534f;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9833,7 +9603,6 @@ ______________________ */
   text-align: left;
   margin: 2rem 0 0.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9885,7 +9654,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   left: 0;
   right: 0;
 }
-
 .SiteConstruction__form___Akkfl97 {
 }
 .SiteConstruction__site___Aek1OQK {
@@ -9894,7 +9662,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   height: 225px;
   width: 100%;
 }
-
 .Site__container___IVXhZEn {
   height: 100%;
   display: flex;
@@ -9913,10 +9680,8 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .Site__workforces___NWM1LB5 {
   flex-shrink: 0;
 }
-
 .Sites__empty___CmgLLxh {
 }
-
 .InventoriesList__capacityContainer___jHWxn3F {
   display: flex;
   flex-direction: row;
@@ -9925,7 +9690,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   display: flex;
   flex-direction: row;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9941,7 +9705,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .InventoriesListContainer__filter___x0VgzsU span {
   margin-right: 2px;
 }
-
 .Unpack__container___CRqvWVs {
   display: flex;
   flex-direction: row;
@@ -9951,7 +9714,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .Unpack__container___CRqvWVs button {
   min-width: 1.5rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9962,7 +9724,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   flex-direction: column;
   height: 100%;
 }
-
 .SystemInformation__table___mv_Dauw {
   table-layout: auto;
 }
@@ -9970,11 +9731,9 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   display: flex;
   flex-direction: column;
 }
-
 .SystemSearch__selector___qSOfNAb {
   padding: 30px 15px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -9982,7 +9741,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 /* tables */
 .CreateScreenPanel__form___b0aG45M {
 }
-
 .Screens__empty___Dxowk9a {
   text-align: center;
 }
@@ -9992,7 +9750,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .Screens__addForm___EJgVkNz input.Screens__optionsInput___h7M695R {
   text-transform: none;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10027,7 +9784,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   text-align: justify;
   padding-bottom: 3px;
 }
-
 .DeleteCompanyPanel__actionPanel___jBG0tTf {
   display: flex;
   flex-direction: column;
@@ -10039,7 +9795,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
   text-align: center;
   padding: 0 30px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10061,7 +9816,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .SteamReviewPanel__hint___mFcs7DH {
   color: #777;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10111,7 +9865,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .TaskListItem__indicatorBlocked___eCaWIzv {
   background-color: rgba(247, 166, 0, 0.5);
 }
-
 .Help__container___kZCxt3g {
   display: flex;
   flex-direction: column;
@@ -10128,7 +9881,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .Help__settingsItem___FZwdYjx {
   align-self: center;
 }
-
 .ExternalURLPanel__actionPanel___X9kE3kb {
   display: flex;
   flex-direction: column;
@@ -10143,7 +9895,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .ExternalURLPanel__actionPanel___X9kE3kb small {
   margin-top: 1em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10152,7 +9903,6 @@ div > .SiteBuildOptions__scrollbars___u57BAGF {
 .Transmissions__disabled___WkXPJ3w {
   color: #444;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10258,7 +10008,6 @@ ______________________ */
   flex-direction: row;
   align-items: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10306,7 +10055,6 @@ ______________________ */
 }
 .PanelSelector__inputMobile___jjZqxX0 {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10340,7 +10088,6 @@ ______________________ */
   top: 0;
   right: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10489,7 +10236,6 @@ ______________________ */
 }
 .Button__disabledInlineMobile___kCwbIYR {
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10514,7 +10260,6 @@ ______________________ */
 .ServerNotification__link___CFOV05q {
   color: #777;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10530,7 +10275,6 @@ ______________________ */
   min-height: 0;
   border-bottom: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10569,7 +10313,6 @@ a:hover {
   flex-direction: column;
   height: 100%;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -10627,7 +10370,6 @@ ______________________ */
   font-weight: bold;
   padding: 0 2px;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -10695,7 +10437,6 @@ ______________________ */
   background-color: #d9534f;
   border-radius: 100%;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -10763,7 +10504,6 @@ ______________________ */
   background-color: #d9534f;
   border-radius: 100%;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -10804,7 +10544,6 @@ ______________________ */
   height: 4.2rem;
   margin: 0 1rem 0 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10831,7 +10570,6 @@ ______________________ */
   vertical-align: super;
   color: #999;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -10859,7 +10597,6 @@ ______________________ */
 .LoadingState__item___hLKm2bO {
   padding-top: 5px;
 }
-
 .Main__container___ym5qTSM {
   overflow-y: scroll;
   display: flex;
@@ -10868,7 +10605,6 @@ ______________________ */
   background: url(https://apex.prosperousuniverse.com/assets/images/8cf49b8d3e67aec0.svg) top center no-repeat;
   background-size: 110% auto;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -10909,7 +10645,6 @@ ______________________ */
   color: #20314E;
   border-radius: 100%;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -11049,7 +10784,6 @@ button[class*="BtnRemove"] {
   max-width: 34rem;
   margin: 0 auto;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -11193,7 +10927,6 @@ ______________________ */
 .Stacks__newStackContainer___DIMkGvH div h3 {
   font-size: 2.4rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11216,7 +10949,6 @@ ______________________ */
   border-bottom: 1px solid #333333;
   padding: 0.25em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11260,7 +10992,6 @@ ______________________ */
 .Steps__noTopMargin___VcUEJY7 {
   margin-top: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11275,7 +11006,6 @@ ______________________ */
   display: flex;
   flex-direction: column;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11343,7 +11073,6 @@ ______________________ */
   height: 2rem;
   background: #262626;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11368,7 +11097,6 @@ ______________________ */
 .Hints__hint____PdXrGv {
   color: #999;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11455,7 +11183,6 @@ ______________________ */
 .NoTestServerAccess__containerMobile___lrElmVz .NoTestServerAccess__description___lfe9nr_ p:not(:last-child) {
   margin: 0 0 1.5rem;
 }
-
 @import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css);
 @font-face {
   font-family: 'Barlow';
@@ -11482,7 +11209,6 @@ ______________________ */
   font-style: normal;
   font-display: swap;
 }
-
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -11516,7 +11242,6 @@ ______________________ */
   height: 100%;
   max-height: 100%;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11656,7 +11381,6 @@ ______________________ */
   margin-top: 10px;
   text-align: center;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11702,7 +11426,6 @@ ______________________ */
 .Connecting__processing___u9cqumo .Connecting__message___AQISYY3 {
   background-color: #f0ad4e;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11746,7 +11469,6 @@ code {
 strong {
   margin-left: 0.2em;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11797,7 +11519,6 @@ strong {
   right: auto;
   left: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11841,7 +11562,6 @@ strong {
   height: 24px;
   border-top: 1px solid #555555;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11883,7 +11603,6 @@ strong {
   line-height: 19px;
   padding: 2px 6px 3px;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11937,7 +11656,6 @@ strong {
   overflow: hidden;
   background-color: transparent;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11951,7 +11669,6 @@ strong {
   display: inline-block;
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11961,7 +11678,6 @@ strong {
   display: inline-block;
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11971,7 +11687,6 @@ strong {
   display: inline-block;
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11986,7 +11701,6 @@ strong {
 .Indicator__indicatorActive___nYrNZky {
   background-color: #f7a600;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12078,7 +11792,6 @@ strong {
 .ScreenControls__undo___MewyiLs:hover {
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12130,7 +11843,6 @@ strong {
 .ContextControls__name___uTkeH13:hover {
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12148,7 +11860,6 @@ strong {
   display: flex;
   flex-direction: row;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12181,7 +11892,6 @@ strong {
   justify-content: center;
   padding: 0.1rem 0.15rem 0.15rem 0.15rem;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12202,7 +11912,6 @@ strong {
 .UsersOnlineCount__container___Fz3RHGF:hover {
   color: #ddd;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12230,7 +11939,6 @@ strong {
   min-height: 0;
   border-bottom: 0;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12313,7 +12021,6 @@ strong {
 .Overlay__content___Saim5PD a:hover {
   background-color: #ba7d00;
 }
-
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -12417,4 +12124,3 @@ table tfoot td:first-child {
 table tfoot td:nth-child(odd) {
   background-color: #23282b;
 }
-
