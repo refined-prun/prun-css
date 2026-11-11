@@ -915,6 +915,12 @@ ______________________ */
 }
 .ScrollView__view___ovf59Tk {
   padding-right: 10px;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  scrollbar-width: none;
+}
+.ScrollView__view___ovf59Tk::-webkit-scrollbar {
+  display: none;
 }
 .ScrollView__viewMobile___ej9LTvq {
   position: static !important;
@@ -1064,13 +1070,173 @@ ______________________ */
 /* --------- CHOICES - BASE --------- */
 /* colors */
 /* tables */
-.Link__link___fa4mmMA {
-  display: inline;
-  color: #3fa2de;
-  cursor: pointer;
+.ActionFeedback__overlay___NNDPRrV {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: 96px 96px;
+  z-index: 99;
 }
-.Link__link___fa4mmMA:hover {
-  color: #f7a600;
+.ActionFeedback__message___G2Sz4bw {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.ActionFeedback__text___YQjjibG {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.ActionFeedback__dismiss___x5Ln7y1 {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+.ActionFeedback__success___nVa5scG {
+  background-color: rgba(92, 184, 92, 0.3);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(92, 184, 92, 0.5) 25%, rgba(92, 184, 92, 0.5) 50%);
+}
+.ActionFeedback__success___nVa5scG .ActionFeedback__message___G2Sz4bw {
+  background-color: #5cb85c;
+}
+.ActionFeedback__error___xlcZVC4 {
+  background-color: rgba(217, 83, 79, 0.3);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(217, 83, 79, 0.5) 25%, rgba(217, 83, 79, 0.5) 50%);
+}
+.ActionFeedback__error___xlcZVC4 .ActionFeedback__message___G2Sz4bw {
+  background-color: #d9534f;
+}
+@keyframes ActionFeedback__background-stripes___kymoBYd {
+  from {
+    background-position: 96px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.ActionFeedback__progress___PgMTDkB {
+  background-color: rgba(240, 173, 78, 0.3);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(240, 173, 78, 0.5) 25%, rgba(240, 173, 78, 0.5) 50%);
+  animation: ActionFeedback__background-stripes___kymoBYd 1s linear infinite;
+}
+.ActionFeedback__progress___PgMTDkB .ActionFeedback__message___G2Sz4bw {
+  background-color: #f0ad4e;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.ActionConfirmationOverlay__container___A05Ts1g {
+  background-color: rgba(240, 173, 78, 0.3);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(240, 173, 78, 0.5) 25%, rgba(240, 173, 78, 0.5) 50%);
+}
+.ActionConfirmationOverlay__message___OajoGeh {
+  color: #272727;
+  background-color: #f0ad4e;
+}
+.ActionConfirmationOverlay__text___qkKzVK0 {
+  color: #272727;
+  background-color: #f0ad4e;
+}
+.ActionConfirmationOverlay__buttons___sE7CNVe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__message___OajoGeh {
+  padding: 2rem;
+}
+.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__message___OajoGeh .ActionConfirmationOverlay__message___OajoGeh {
+  padding: 0;
+}
+.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__text___qkKzVK0 {
+  display: block;
+  margin: 1rem 0;
+}
+.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__buttons___sE7CNVe {
+  margin: 2.5rem 0 0;
+}
+.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__buttons___sE7CNVe button {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.DropTargetView__container___tlpnWIa {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.DropTargetView__center___Gtefie7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.DropTargetView__item___gaP2XJl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  color: #3fa2de;
+  border: 1px solid #3fa2de;
+}
+.DropTargetView__isOver___gTJ_30h {
+  background-color: #f7a600;
+  color: #272727;
+  border: 1px solid #f7a600;
+}
+.DropTargetView__impossible___CkDjQ_s {
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.AdminDestroyOverlay__container___qy1fVwm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px;
+  background-color: rgba(34, 34, 34, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+.AdminDestroyOverlay__label___HZEM2Fa {
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+  color: #d9534f;
+}
+.AdminDestroyOverlay__targets___GUyeAvC {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.AdminInventoryPanel__container___MRbOTon {
+  position: relative;
+  height: 100%;
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -1274,221 +1440,39 @@ ______________________ */
   display: block;
   z-index: 50;
 }
-/*   THEME
-______________________ */
-/* --------- OPTIONS --------- */
-/* Breakpoints */
-/* Colors */
-/* Typography */
-/* --------- CHOICES - BASE --------- */
-/* Breakpoints */
-/* Background */
-/* Border */
-/* Text Colors */
-/* --------- CHOICES - COMPONENTS --------- */
-/* BtnOpen */
-/* Card */
-/* Command */
-/* Footer */
-/* Figure */
-/* Header */
-/* Input */
-/* Inventory Transfer */
-/* Modal */
-/* Slider */
-/* Stacks */
-/* Tables */
-/* Mobile Transfer Overlay */
-/* Target Inventory */
-/* --------- CHOICES - Typography --------- */
-.TableContainer__tableContainerMobile___Vwkke4A {
-  overflow-x: scroll;
-  max-width: 100%;
-}
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
 /* colors */
 /* tables */
-/*   THEME
-______________________ */
-/* --------- OPTIONS --------- */
-/* Breakpoints */
-/* Colors */
-/* Typography */
-/* --------- CHOICES - BASE --------- */
-/* Breakpoints */
-/* Background */
-/* Border */
-/* Text Colors */
-/* --------- CHOICES - COMPONENTS --------- */
-/* BtnOpen */
-/* Card */
-/* Command */
-/* Footer */
-/* Figure */
-/* Header */
-/* Input */
-/* Inventory Transfer */
-/* Modal */
-/* Slider */
-/* Stacks */
-/* Tables */
-/* Mobile Transfer Overlay */
-/* Target Inventory */
-/* --------- CHOICES - Typography --------- */
-.ActionBar__container___p760bSs {
+.AdminMaterialGrid__container____9y0C3a {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  padding: 6px 0;
-  border-bottom: 1px solid #333;
+  flex-direction: column;
+  height: 100%;
 }
-.ActionBar__element___WJlsFch {
-  margin: auto 3px;
-  padding-top: 0.1rem;
+.AdminMaterialGrid__filter___qrMGzUt {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 4px;
 }
-.ActionBar__containerMobile___yaBhMQU {
-  flex-wrap: wrap;
-  margin: 0 0 0.5rem;
-  padding-bottom: 0.5rem;
+.AdminMaterialGrid__scrollbars___g6kEtdi {
+  position: relative;
+  flex-grow: 1;
 }
-.ActionBar__elementMobile___do9I_PT {
-  margin: 0.5rem;
-}
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/* tables */
-.ActionFeedback__overlay___NNDPRrV {
-  position: absolute;
+.AdminMaterialGrid__scrollbars___g6kEtdi > div {
+  position: absolute !important;
   top: 0;
-  right: 0;
   bottom: 0;
   left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: 96px 96px;
-  z-index: 99;
+  right: 0;
 }
-.ActionFeedback__message___G2Sz4bw {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-}
-.ActionFeedback__text___YQjjibG {
-  display: block;
-  text-align: center;
-  color: #fff;
-}
-.ActionFeedback__dismiss___x5Ln7y1 {
-  display: block;
-  margin-top: 10px;
-  text-align: center;
-}
-.ActionFeedback__success___nVa5scG {
-  background-color: rgba(92, 184, 92, 0.3);
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(92, 184, 92, 0.5) 25%, rgba(92, 184, 92, 0.5) 50%);
-}
-.ActionFeedback__success___nVa5scG .ActionFeedback__message___G2Sz4bw {
-  background-color: #5cb85c;
-}
-.ActionFeedback__error___xlcZVC4 {
-  background-color: rgba(217, 83, 79, 0.3);
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(217, 83, 79, 0.5) 25%, rgba(217, 83, 79, 0.5) 50%);
-}
-.ActionFeedback__error___xlcZVC4 .ActionFeedback__message___G2Sz4bw {
-  background-color: #d9534f;
-}
-@keyframes ActionFeedback__background-stripes___kymoBYd {
-  from {
-    background-position: 96px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-.ActionFeedback__progress___PgMTDkB {
-  background-color: rgba(240, 173, 78, 0.3);
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(240, 173, 78, 0.5) 25%, rgba(240, 173, 78, 0.5) 50%);
-  animation: ActionFeedback__background-stripes___kymoBYd 1s linear infinite;
-}
-.ActionFeedback__progress___PgMTDkB .ActionFeedback__message___G2Sz4bw {
-  background-color: #f0ad4e;
-}
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/* tables */
-.ActionConfirmationOverlay__container___A05Ts1g {
-  background-color: rgba(240, 173, 78, 0.3);
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25%, rgba(240, 173, 78, 0.5) 25%, rgba(240, 173, 78, 0.5) 50%);
-}
-.ActionConfirmationOverlay__message___OajoGeh {
-  color: #272727;
-  background-color: #f0ad4e;
-}
-.ActionConfirmationOverlay__text___qkKzVK0 {
-  color: #272727;
-  background-color: #f0ad4e;
-}
-.ActionConfirmationOverlay__buttons___sE7CNVe {
+.AdminMaterialGrid__grid___rYrC6C6 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 10px;
-}
-.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__message___OajoGeh {
-  padding: 2rem;
-}
-.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__message___OajoGeh .ActionConfirmationOverlay__message___OajoGeh {
-  padding: 0;
-}
-.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__text___qkKzVK0 {
-  display: block;
-  margin: 1rem 0;
-}
-.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__buttons___sE7CNVe {
-  margin: 2.5rem 0 0;
-}
-.ActionConfirmationOverlay__containerMobile___x3WN7xH .ActionConfirmationOverlay__buttons___sE7CNVe button {
-  font-size: 1.2rem;
-  letter-spacing: 0.5px;
-  margin: 0 1rem;
-  padding: 1rem;
-}
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/* tables */
-.Banner__container___veUFtZx {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f0ad4e;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  padding: 5px 0;
-}
-.Banner__text___x80yLSC {
-  display: block;
-  text-align: center;
-  color: #272727;
-}
-.Banner__buttons___zmHzawH {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  padding-top: 5px;
-}
-.Banner__buttons___zmHzawH > div {
-  padding-left: 4px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -1667,6 +1651,104 @@ ______________________ */
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Link__link___fa4mmMA {
+  display: inline;
+  color: #3fa2de;
+  cursor: pointer;
+}
+.Link__link___fa4mmMA:hover {
+  color: #f7a600;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.AdminMaterialItemView__container___z9C_akl {
+  display: block;
+  background-color: #262626;
+  width: 64px;
+  margin: 3px;
+  padding: 2px;
+  overflow: hidden;
+  word-break: break-word;
+}
+.AdminMaterialItemView__image___pz3ke6a {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 2px auto;
+  cursor: pointer;
+}
+.AdminMaterialItemView__name___OB7OVlR {
+  font-weight: bold;
+  padding-top: 2px;
+  color: #bbb;
+}
+/*   THEME
+______________________ */
+/* --------- OPTIONS --------- */
+/* Breakpoints */
+/* Colors */
+/* Typography */
+/* --------- CHOICES - BASE --------- */
+/* Breakpoints */
+/* Background */
+/* Border */
+/* Text Colors */
+/* --------- CHOICES - COMPONENTS --------- */
+/* BtnOpen */
+/* Card */
+/* Command */
+/* Footer */
+/* Figure */
+/* Header */
+/* Input */
+/* Inventory Transfer */
+/* Modal */
+/* Slider */
+/* Stacks */
+/* Tables */
+/* Mobile Transfer Overlay */
+/* Target Inventory */
+/* --------- CHOICES - Typography --------- */
+.TableContainer__tableContainerMobile___Vwkke4A {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Banner__container___veUFtZx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0ad4e;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 5px 0;
+}
+.Banner__text___x80yLSC {
+  display: block;
+  text-align: center;
+  color: #272727;
+}
+.Banner__buttons___zmHzawH {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding-top: 5px;
+}
+.Banner__buttons___zmHzawH > div {
+  padding-left: 4px;
 }
 .MaterialList__container___B_lbfy6 {
   display: flex;
@@ -2051,6 +2133,58 @@ ______________________ */
   min-width: 140px;
   overflow-wrap: break-word;
   margin-right: 2px;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+/*   THEME
+______________________ */
+/* --------- OPTIONS --------- */
+/* Breakpoints */
+/* Colors */
+/* Typography */
+/* --------- CHOICES - BASE --------- */
+/* Breakpoints */
+/* Background */
+/* Border */
+/* Text Colors */
+/* --------- CHOICES - COMPONENTS --------- */
+/* BtnOpen */
+/* Card */
+/* Command */
+/* Footer */
+/* Figure */
+/* Header */
+/* Input */
+/* Inventory Transfer */
+/* Modal */
+/* Slider */
+/* Stacks */
+/* Tables */
+/* Mobile Transfer Overlay */
+/* Target Inventory */
+/* --------- CHOICES - Typography --------- */
+.ActionBar__container___p760bSs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 6px 0;
+  border-bottom: 1px solid #333;
+}
+.ActionBar__element___WJlsFch {
+  margin: auto 3px;
+  padding-top: 0.1rem;
+}
+.ActionBar__containerMobile___yaBhMQU {
+  flex-wrap: wrap;
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.ActionBar__elementMobile___do9I_PT {
+  margin: 0.5rem;
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -2761,8 +2895,6 @@ ______________________ */
   border-bottom: 1px solid #f7a600;
 }
 .MaterialSelector__suggestionsContainer___ugUNHkA {
-  position: absolute;
-  right: 0;
   width: 250px;
 }
 .MaterialSelector__suggestionsList___NxsNvXI {
@@ -3778,9 +3910,6 @@ ______________________ */
   border-bottom: 1px solid #f7a600;
 }
 .UserSelector__suggestionsContainer___JZfMaKr {
-  position: absolute;
-  bottom: 100%;
-  right: 0;
   width: 250px;
 }
 .UserSelector__suggestionsList___a1X05Wu {
@@ -3789,6 +3918,10 @@ ______________________ */
   text-align: left;
 }
 .UserSelector__suggestionHighlighted___bnTZIf3 {
+}
+.UserSelector__sectionContainer___Qb_N6yB {
+}
+.UserSelector__sectionTitle___mvwizSP {
 }
 .UserSelector__suggestionEntry___SsvBZcO {
   display: flex;
@@ -4540,15 +4673,72 @@ ______________________ */
 /* --------- CHOICES - BASE --------- */
 /* colors */
 /* tables */
+.CollapsibleSection__container___NgK9Gss {
+  margin: 0.15rem;
+  border: 1px solid transparent;
+  background: #23282b;
+}
+.CollapsibleSection__open___tnVDDrz {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.CollapsibleSection__header___UB4ZflB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 6px;
+  cursor: pointer;
+  user-select: none;
+}
+.CollapsibleSection__header___UB4ZflB:hover {
+  color: #ddd;
+}
+.CollapsibleSection__toggle___Zle04EM {
+  display: inline-flex;
+  margin-right: 6px;
+  transition: transform 0.2s ease;
+}
+.CollapsibleSection__toggleOpen___DuM5lK1 {
+  transform: rotate(180deg);
+}
+.CollapsibleSection__content___U3vassl {
+  padding: 0 6px 6px;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.ComExOrdersPanel__bar___cA9PxZ7 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.ComExOrdersPanel__filters___ZRNLSrI {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
 .ComExOrdersPanel__filter___vu7cNod {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  align-items: center;
+  column-gap: 6px;
+  padding: 2px 0;
+}
+.ComExOrdersPanel__filterLabel___DHCRvw2 {
+  white-space: nowrap;
+}
+.ComExOrdersPanel__filterOptions___rAI2FXJ {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   column-gap: 3px;
-  padding: 5px;
-  position: sticky;
-  top: -1px;
-  background: #23282b;
+}
+.ComExOrdersPanel__materialSelector___fBLALU2 {
+  flex: 0 0 auto;
 }
 .ComExOrdersTable__number___FW0SAqs {
   text-align: right;
@@ -6074,6 +6264,48 @@ ______________________ */
   justify-content: space-between;
   margin: 0 0 1.5rem;
 }
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Status__light___zEKGcsE {
+  display: inline-block;
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.Status__light___zEKGcsE::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.Status__ok___fh5gB5B {
+  background-color: #5cb85c;
+  box-shadow: 0 0 5px 1px rgba(92, 184, 92, 0.55);
+}
+.Status__warning___JK5DYVs {
+  background-color: #f0ad4e;
+  box-shadow: 0 0 5px 1px rgba(240, 173, 78, 0.55);
+}
+.Status__error___QYnH4jJ {
+  background-color: #d9534f;
+  box-shadow: 0 0 5px 1px rgba(217, 83, 79, 0.55);
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.RouteExecutionLink__status___EgtOsKt {
+  padding-right: 6px;
+}
 /*   THEME
 ______________________ */
 /* --------- OPTIONS --------- */
@@ -6184,6 +6416,244 @@ ______________________ */
 .FlightView__header___gzNjQVA {
 }
 .FlightView__form___cVTem2n {
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Waypoints__container___YPq85Ob {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #2b485a;
+}
+.Waypoints__empty___aR6sk09 {
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Waypoint__container___L2BwRfr {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 0;
+  border-bottom: 1px solid #2b485a;
+  color: #999;
+}
+.Waypoint__waypoint___DMivPTj {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 6px 4px;
+}
+.Waypoint__waypoint___DMivPTj:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.Waypoint__waypoint___DMivPTj:hover .Waypoint__commandsWaypoint___uqCgoW2 {
+  visibility: visible;
+}
+.Waypoint__waypoint___DMivPTj:hover .Waypoint__commandsSteps___FQpEZy2 {
+  display: flex;
+}
+.Waypoint__containerDragging___WR8suxL {
+  opacity: 0.4;
+}
+.Waypoint__handle___OjA9TMd {
+  display: flex;
+  align-items: center;
+  padding-right: 6px;
+  color: #777;
+  cursor: grab;
+}
+.Waypoint__handle___OjA9TMd:hover {
+  color: #f7a600;
+}
+.Waypoint__position___JfdH0gd {
+  min-width: 1rem;
+  color: #777;
+}
+.Waypoint__info___SsvXh5P {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.Waypoint__label___lIPwt20 {
+  margin-bottom: 2px;
+  color: #777;
+}
+.Waypoint__destination___jgB2zQf {
+}
+.Waypoint__commandsWaypoint___uqCgoW2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-self: center;
+  padding-left: 6px;
+  visibility: hidden;
+}
+.Waypoint__commandsWaypoint___uqCgoW2 > *:last-child:not(:first-child) {
+  margin-left: 9px;
+}
+.Waypoint__commandsSteps___FQpEZy2 {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+@media (hover: none) {
+  .Waypoint__commandsWaypoint___uqCgoW2 {
+    display: flex;
+  }
+  .Waypoint__commandsSteps___FQpEZy2 {
+    visibility: visible;
+  }
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.ExecutionRoute__indicator___IJPRFsA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  padding-right: 6px;
+}
+.ExecutionRoute__countdown___hV1Ugzv {
+  padding-left: 6px;
+  color: #777;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Steps__container___fgZOrPN {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.25rem;
+}
+.Steps__empty___DjK5HeW {
+  padding: 1px 6px 1px calc(1.25rem + 6px);
+  color: #777;
+}
+.Steps__emptyOver___eZAnBk5 {
+  background-color: rgba(247, 166, 0, 0.15);
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Step__container___CIqIvut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 6px;
+}
+.Step__container___CIqIvut:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.Step__container___CIqIvut:hover .Step__commands___JbE_1Eb {
+  visibility: visible;
+}
+.Step__containerDragging___xdNIBSe {
+  opacity: 0.4;
+}
+.Step__containerInsertBefore___FTCahyX {
+  box-shadow: inset 0 2px 0 -1px #f7a600;
+}
+.Step__containerInsertAfter___QYVNBO_ {
+  box-shadow: inset 0 -2px 0 -1px #f7a600;
+}
+.Step__handle___KVMEqFI {
+  display: flex;
+  align-items: center;
+  padding-right: 6px;
+  color: #777;
+  cursor: grab;
+}
+.Step__handle___KVMEqFI:hover {
+  color: #f7a600;
+}
+.Step__position___ExPKWuP {
+  min-width: 1rem;
+  color: #777;
+}
+.Step__type___r6u8dzz {
+  min-width: 2.5rem;
+  padding-right: 0.25rem;
+}
+.Step__summary___KduJdRD {
+  flex: 1;
+  padding-right: 6px;
+  color: #777;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Step__commands___JbE_1Eb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  visibility: hidden;
+}
+.Step__commands___JbE_1Eb > *:last-child:not(:first-child) {
+  margin-left: 18px;
+}
+@media (hover: none) {
+  .Step__commands___JbE_1Eb {
+    visibility: visible;
+  }
+}
+.RouteExecutions__empty___uUrhDaC {
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.ChoiceInput__container___vvXE6UY {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0 6px;
+  padding: 1px 4px;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.Route__header___PwSPlOK {
+  display: flex;
+  flex-direction: column;
+}
+.Route__name___iHn6gCA {
+}
+.Route__naturalId___fOylvRa {
+}
+.Route__input___q2wR0PK {
+  width: 160px;
+  padding: 1px 4px 2px;
+  text-align: left;
+  text-transform: none;
+  border: 0;
+  border-bottom: 1px solid #8d6411;
+  background-color: #42361d;
+  color: #bbb;
+  outline: none;
+}
+.Route__input___q2wR0PK:focus {
+  border-bottom: 1px solid #f7a600;
+}
+.Route__inputMobile___JM00YYo {
+  width: 100%;
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -6775,41 +7245,6 @@ ______________________ */
 .StoreDropTarget__isOver___wZdUbPD {
   background-color: #5DA8E2;
   color: #fff;
-}
-/* --------- OPTIONS --------- */
-/* color */
-/* --------- CHOICES - BASE --------- */
-/* colors */
-/* tables */
-.DropTargetView__container___tlpnWIa {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.DropTargetView__center___Gtefie7 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.DropTargetView__item___gaP2XJl {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 45px;
-  height: 45px;
-  color: #3fa2de;
-  border: 1px solid #3fa2de;
-}
-.DropTargetView__isOver___gTJ_30h {
-  background-color: #f7a600;
-  color: #272727;
-  border: 1px solid #f7a600;
-}
-.DropTargetView__impossible___CkDjQ_s {
-  color: #d9534f;
-  border: 1px solid #d9534f;
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -7745,6 +8180,96 @@ ______________________ */
 .MaterialInformation__recipeListMobile___UKNY6pu .MaterialInformation__recipeIcon___wbQBd5b {
   margin-bottom: 0;
 }
+.NewsFilters__filter___nR7466k {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 3px;
+}
+.NewsFilters__label___MYzOzRR {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.NewsList__empty___OeXoo8x {
+  padding: 6px 10px 4px;
+}
+.NewsList__bar___EiEozwd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.CountryBadge__badge___fm46jnV {
+  display: inline-block;
+  padding: 1px 4px;
+  cursor: pointer;
+  color: #eee;
+  background-color: #333;
+}
+/* One class per country, named after the lower-cased country code. */
+.CountryBadge__ai___KJMaDld {
+  color: #eee;
+  background-color: #fb5318;
+}
+.CountryBadge__ci____WUOnV3 {
+  color: #eee;
+  background-color: #e10909;
+}
+.CountryBadge__nc___Ub4Gv5Y {
+  color: #272727;
+  background-color: #f3c626;
+}
+.CountryBadge__ic___qDT0qb0 {
+  color: #eee;
+  background-color: #009920;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.NewsListItem__container___KJXRJaJ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+.NewsListItem__content___uw2shxv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 6px 10px 4px;
+}
+.NewsListItem__text___pvC7TQd {
+  flex-grow: 1;
+}
+.NewsListItem__time___CxzqVXj {
+  display: block;
+  margin-top: 1px;
+}
+.NewsListItem__indicator___MHoBrLo {
+  width: 2px;
+  flex-shrink: 0;
+}
+.NewsListItem__indicatorUnread___DpCOrR3 {
+  background-color: #3fa2de;
+}
+.NewsListItem__indicatorRead___aJH8UWZ {
+  background-color: rgba(63, 162, 222, 0.15);
+}
+.NewsText__summary___tD53_10 {
+  display: block;
+}
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -8629,6 +9154,11 @@ ______________________ */
   padding: 0.75rem 1rem 1rem;
   border-bottom: 1px solid rgba(159, 186, 156, 0.4);
 }
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
 .ProductionQueue__figures___curZZZ6 {
 }
 .ProductionQueue__figure___VS7OerK {
@@ -8648,12 +9178,25 @@ ______________________ */
 .ProductionQueue__cancel___QuMCIwr {
   text-align: center;
 }
-.ProductionQueue__orderMoveButtons___bHSmVC8 {
+.ProductionQueue__handle___UUzTj9I {
   display: flex;
-  flex-direction: column;
-  width: 32px;
+  align-items: center;
   height: 32px;
-  justify-content: center;
+  color: #777;
+  cursor: grab;
+}
+.ProductionQueue__handle___UUzTj9I:hover {
+  color: #f7a600;
+}
+.ProductionQueue__handleDisabled___UHYfvfE {
+  color: #444;
+  cursor: not-allowed;
+}
+.ProductionQueue__handleDisabled___UHYfvfE:hover {
+  color: #444;
+}
+.ProductionQueue__rowDragging___bwhg2RC {
+  opacity: 0.4;
 }
 .ProductionQueue__inputoutput___bYAvyfw {
   display: flex;
@@ -10236,6 +10779,13 @@ ______________________ */
 }
 .Button__disabledInlineMobile___kCwbIYR {
 }
+.Button__icon___HM1aETz {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  line-height: 0;
+}
 /* --------- OPTIONS --------- */
 /* color */
 /* --------- CHOICES - BASE --------- */
@@ -11729,6 +12279,7 @@ strong {
   border-bottom: 1px solid #f7a600;
 }
 .ScreenControls__selector___miYQ63O {
+  position: relative;
   display: inline-block;
 }
 .ScreenControls__selector___miYQ63O ul {
@@ -11738,8 +12289,11 @@ strong {
   display: block;
 }
 .ScreenControls__screens___GMA5Irm {
-  position: fixed;
+  position: absolute;
+  top: 100%;
+  left: 0;
   z-index: 10000;
+  width: max-content;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11807,6 +12361,7 @@ strong {
   min-width: 10rem;
 }
 .ContextControls__selector___dNxET86 {
+  position: relative;
   display: inline-block;
 }
 .ContextControls__selector___dNxET86 ul {
@@ -11816,8 +12371,11 @@ strong {
   display: block;
 }
 .ContextControls__contexts___N9HS0KR {
-  position: fixed;
+  position: absolute;
+  top: 100%;
+  left: 0;
   z-index: 10000;
+  width: max-content;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11849,7 +12407,6 @@ strong {
 /* colors */
 /* tables */
 .Head__container___3ecBw0E {
-  height: 26px;
   background-color: #1e1e1e;
   display: flex;
   flex-direction: row;
@@ -11891,6 +12448,15 @@ strong {
   flex-direction: row;
   justify-content: center;
   padding: 0.1rem 0.15rem 0.15rem 0.15rem;
+}
+/* --------- OPTIONS --------- */
+/* color */
+/* --------- CHOICES - BASE --------- */
+/* colors */
+/* tables */
+.NewsHeadItem__count___YgKeAbV {
+  display: inline-block;
+  color: #ddd;
 }
 /* --------- OPTIONS --------- */
 /* color */
