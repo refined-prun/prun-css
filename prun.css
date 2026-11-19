@@ -915,11 +915,13 @@ ______________________ */
 }
 .ScrollView__view___ovf59Tk {
   padding-right: 10px;
+}
+.ScrollView__hideNative___BnjQwcf {
   margin-right: 0 !important;
   margin-bottom: 0 !important;
   scrollbar-width: none;
 }
-.ScrollView__view___ovf59Tk::-webkit-scrollbar {
+.ScrollView__hideNative___BnjQwcf::-webkit-scrollbar {
   display: none;
 }
 .ScrollView__viewMobile___ej9LTvq {
@@ -6450,12 +6452,6 @@ ______________________ */
 .Waypoint__waypoint___DMivPTj:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-.Waypoint__waypoint___DMivPTj:hover .Waypoint__commandsWaypoint___uqCgoW2 {
-  visibility: visible;
-}
-.Waypoint__waypoint___DMivPTj:hover .Waypoint__commandsSteps___FQpEZy2 {
-  display: flex;
-}
 .Waypoint__containerDragging___WR8suxL {
   opacity: 0.4;
 }
@@ -6491,25 +6487,16 @@ ______________________ */
   justify-content: flex-end;
   align-self: center;
   padding-left: 6px;
-  visibility: hidden;
 }
 .Waypoint__commandsWaypoint___uqCgoW2 > *:last-child:not(:first-child) {
   margin-left: 9px;
 }
 .Waypoint__commandsSteps___FQpEZy2 {
-  display: none;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4px;
   margin-top: 4px;
-}
-@media (hover: none) {
-  .Waypoint__commandsWaypoint___uqCgoW2 {
-    display: flex;
-  }
-  .Waypoint__commandsSteps___FQpEZy2 {
-    visibility: visible;
-  }
 }
 /* --------- OPTIONS --------- */
 /* color */
@@ -6558,9 +6545,6 @@ ______________________ */
 .Step__container___CIqIvut:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-.Step__container___CIqIvut:hover .Step__commands___JbE_1Eb {
-  visibility: visible;
-}
 .Step__containerDragging___xdNIBSe {
   opacity: 0.4;
 }
@@ -6600,15 +6584,9 @@ ______________________ */
   display: flex;
   flex-direction: row;
   align-items: center;
-  visibility: hidden;
 }
 .Step__commands___JbE_1Eb > *:last-child:not(:first-child) {
-  margin-left: 18px;
-}
-@media (hover: none) {
-  .Step__commands___JbE_1Eb {
-    visibility: visible;
-  }
+  margin-left: 9px;
 }
 .RouteExecutions__empty___uUrhDaC {
 }
